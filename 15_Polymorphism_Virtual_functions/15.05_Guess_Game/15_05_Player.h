@@ -17,6 +17,7 @@ namespace myGame
 		void setName(const std::string& theName);
 		const std::string& getName() const;
 		virtual int getGuess() = 0;
+		//   Postcondition: Returns the player's guess as an integer.
 	private:
 		std::string name;
 	};

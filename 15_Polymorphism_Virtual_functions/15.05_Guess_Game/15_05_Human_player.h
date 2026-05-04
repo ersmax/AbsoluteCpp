@@ -10,6 +10,8 @@ namespace myGame
 	public:
 		HumanPlayer();
 		virtual int getGuess() override final;
+		//   Postcondition: Prompts the user to enter a number 
+		// and returns the value entered from the keyboard.
 	private:
 		std::string name = "Human";
 		static int numberPlayer;

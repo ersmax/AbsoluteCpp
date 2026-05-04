@@ -735,3 +735,8 @@ Virtual function basics, Pointers and Virtual Functions
    \- This program implements a simple RPG combat system using polymorphism and virtual functions. 
    It defines a base class `Creature` with virtual functions for getting species and calculating damage, and derived classes `Human`, `Demon`, `Cyberdemon`, `Balrog`, and `Elf` that override these functions to implement specific behaviors (e.g., demons have a chance for extra damage, elves have a chance for double damage). 
    The main function creates instances of each creature type, simulates combat by calling their damage functions, and demonstrates how polymorphism allows the program to treat all creatures uniformly while still invoking the correct behavior based on their actual types at runtime.
+5. [Guess Game](15_Polymorphism_Virtual_functions/15.05_Guess_Game) 
+   \- This program implements a simple number guessing game using polymorphism and virtual functions. 
+   It defines a base class `Player` with a virtual function `getGuess()`, and two derived classes `HumanPlayer` and `ComputerPlayer` that override this function to provide different guessing behaviors (human input vs. random generation). 
+   The `play()` function manages the game loop, alternating turns between two players and checking their guesses against a randomly generated answer. 
+   The program demonstrates how polymorphism allows the game logic to work with any type of player without needing to know their specific implementation, enabling flexible gameplay options (human vs. human, human vs. computer, computer vs. computer).

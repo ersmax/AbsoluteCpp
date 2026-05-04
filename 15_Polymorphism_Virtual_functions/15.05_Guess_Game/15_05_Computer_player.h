@@ -10,6 +10,8 @@ namespace myGame
 	public:
 		ComputerPlayer();
 		virtual int getGuess() override final;
+		//   Postcondition: Randomly selects a number from 0 to 100 
+		// and returns it as the computer player's guess.
 	private:
 		std::string name = "Computer";
 	};
