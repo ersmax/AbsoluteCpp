@@ -11,6 +11,7 @@ add_subdirectory ("15.02_Graph_Visualisation")
 add_subdirectory ("15.03_Predator_Pray_Simulation")
 add_subdirectory ("15.04_RPG")
 add_subdirectory ("15.05_Guess_Game")
+add_subdirectory ("15.06_Guess_Game_Improved")
 
 
 # TODO: Add tests and install targets if needed.
