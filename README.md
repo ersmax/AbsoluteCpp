@@ -1,11 +1,11 @@
-﻿# Projects
+﻿# Absolute C++ Sixth edition by Walter Savitch, Peaerson
 
+Practical programming problems solved in C++20, organized by chapter and topic.
 
-# Practical C++ Problems
+## Introduction
 
-This repository contains practical, real-life programming problems solved in C++20 and above.
-This README lists the documentation files for the collections: `01-Basics` - `10-Pointers and dynamic arrays`
-(much more to come related to OOP, advanced data structure, etc. for a total of 20 sections). 
+This repository contains practical programming problems solved in C++20.
+This README lists the documentation files for the collections: `01-Basics` - `15-Polymorphism and virtual functions`
 Check also my [Other projects](https://github.com/ersmax)
 
 # Important notes
