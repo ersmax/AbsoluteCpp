@@ -30,6 +30,8 @@ void play(Player& player1, Player& player2);
 // where each player takes turns to guess a randomly generated number between 0 and 100 
 // until one of the players wins by guessing the correct number.
 void adjustGame(Player& player1, Player& player2, bool isLower, int theGuess);
+//   Postcondition: Adjusts the game state for both players based on 
+// whether the last guess was too low or too high.
 
 int main( )
 {

@@ -740,3 +740,8 @@ Virtual function basics, Pointers and Virtual Functions
    It defines a base class `Player` with a virtual function `getGuess()`, and two derived classes `HumanPlayer` and `ComputerPlayer` that override this function to provide different guessing behaviors (human input vs. random generation). 
    The `play()` function manages the game loop, alternating turns between two players and checking their guesses against a randomly generated answer. 
    The program demonstrates how polymorphism allows the game logic to work with any type of player without needing to know their specific implementation, enabling flexible gameplay options (human vs. human, human vs. computer, computer vs. computer).
+6. [Guess Game Improved](15_Polymorphism_Virtual_functions/15.06_Guess_Game_Improved) 
+   \- This program enhances the previous number guessing game by allowing the computer player to make informed guesses based on feedback from previous attempts. 
+   The `Player` class is extended with a virtual function `adjustGuess(bool lowerGuess, int theGuess)` that allows the computer player to adjust its guessing strategy based on whether its last guess was too high or too low, and also based on the opponent's last guess. 
+   The `play()` function is modified to provide this feedback after each guess, enabling the computer player to narrow down the possible range of answers and improve its chances of winning. 
+   This demonstrates how virtual functions can be used to create more complex and interactive behaviors in derived classes while maintaining a clean and flexible interface in the base class.
